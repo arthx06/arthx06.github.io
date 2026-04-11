@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    color: white;
+    background-color: gray;
+    width: 100%;
+    padding: 10px;
+}
+.title{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin-left: 25%;
+ 
+}
+.title>h1{
+     
+    color: #025C6D;
+  
+
+}
+.barra{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+   margin-left: 25%;
+}
+#maior{
+    background-color: #B20000;
+    width: 200px;
+    height: 10px;
+    border-radius: 10px;
+}
+.barra>div{
+    background-color: #B20000;
+    width: 700px;
+    height: 2px;
+    border-radius: 10px;
+}
+.icons{
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 25%;
+}
+
+.cordText{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    
+    margin-left: 25%;
+}
+.cordText>p{
+    padding:3px;
+    
+}
+.textMaior{
+    display: flex;
+    width: 50%;
+    margin-left: 25%;
+    text-align: justify;
+}
+.textMaior>p{
+    font-size: 24px;
+}
+.icons2{
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 25%;
+}

@@ -1,0 +1,36 @@
+table{
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.semestre>td{
+    text-align: center;
+ 
+}
+.semestre>th{
+    font-size: 20px;
+}
+.dias>td{
+    background-color: black;
+    color: white; 
+    padding: 0;
+   
+}
+.curso{
+    background-color: black;
+    color: #CC470B;
+    font-size: 24px;
+}
+td{
+     border: 2px solid black;
+     padding: 5px;
+     text-align: center;
+     font-size: 20px;
+     
+}
+.horario{
+    width: 100px;
+    height: 30px;
+}
